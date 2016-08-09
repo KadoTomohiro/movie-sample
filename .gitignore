@@ -5,3 +5,5 @@ bin
 *.js
 *.js.map
 *.log
+.idea
+src/assets

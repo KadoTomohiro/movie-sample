@@ -1,0 +1,23 @@
+video.full-screen {
+    background-color: transparent;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    min-width: 0px;
+    max-width: none;
+    min-height: 0px;
+    max-height: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform: none;
+    margin: 0px !important;
+    flex: 1 1 0% !important;
+    object-fit: contain;
+}
+
+div.video-background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
