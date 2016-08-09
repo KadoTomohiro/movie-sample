@@ -1,5 +1,5 @@
 {
-  "name": "angular2-lite-start",
+  "name": "movie sample",
   "version": "1.0.0",
   "description": "Angular2 lite start package",
   "main": "index.js",
@@ -10,20 +10,12 @@
     "lite": "lite-server -c bs-config.json",
     "postinstall": "typings install -AS core-js jasmine node"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/albatrosary/angular2-lite-start.git"
-  },
   "keywords": [
     "angular2",
     "typescript"
   ],
-  "author": "Fumio SAGAWA",
+  "author": "kado tomohiro",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/albatrosary/angular2-lite-start/issues"
-  },
-  "homepage": "https://github.com/albatrosary/angular2-lite-start#readme",
   "dependencies": {
     "@angular/common": "angular/common-builds",
     "@angular/compiler": "angular/compiler-builds",
