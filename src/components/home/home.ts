@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
   selector: 'my-app',
   template: `
     <!--<h1>My First {{name}} {{1+1}} App</h1>-->
-    <movie [title]="title" (ended)="end($event)"></movie>
+    <movie [title]="title" (ended)="end()"></movie>
     `,
 })
 

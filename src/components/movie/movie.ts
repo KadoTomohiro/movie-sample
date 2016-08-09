@@ -8,7 +8,7 @@ import {Component, Input, Output, EventEmitter, OnInit} from '@angular/core'
 export class MovieComponent implements OnInit{
 
     @Input() title: string;
-    @Output('ended') ended: EventEmitter;
+    @Output('ended') ended: EventEmitter<any>;
 
 
     constructor() {
@@ -33,7 +33,7 @@ export class MovieComponent implements OnInit{
         // }
     }
 
-    end(e) {
-        this.ended.emit(e);
+    end() {
+        this.ended.emit();
     }
 }
