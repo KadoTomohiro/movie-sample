@@ -1,1 +1,2 @@
-# angular2-lite-start
+# 動画再生サンプル
+
