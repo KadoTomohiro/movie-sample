@@ -10,7 +10,7 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server -c bs-config.json",
-    "postinstall": "typings install -AS core-js jasmine node"
+    "postinstall": "typings install"
   },
   "keywords": [
     "angular2",
