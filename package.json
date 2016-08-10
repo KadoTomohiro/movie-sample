@@ -1,7 +1,7 @@
 {
   "name": "movie-sample",
   "version": "1.0.0",
-  "description": "Angular2 lite start package",
+  "description": "movie sample",
   "main": "index.js",
   "engines":{
     "node": "6.3.0"
