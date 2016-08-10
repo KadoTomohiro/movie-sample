@@ -11,8 +11,8 @@ video.full-screen {
     height: 100%;
     display: block;
     transform: none;
-    margin: 0px !important;
-    flex: 1 1 0% !important;
+    margin: 0px;
+    flex: 1 1 0%;
     object-fit: contain;
 }
 
