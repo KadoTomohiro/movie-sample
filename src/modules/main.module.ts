@@ -3,12 +3,17 @@ import {BrowserModule} from '@angular/platform-browser';
 import {CommonModule} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
+import {RouterModule} from '@angular/router';
 
-import {AppComponent, MovieComponent} from './../components';
+import {Routes} from './../modules/main.routes';
+import {AppComponent, MovieComponent, SignageComponent} from './../components';
+import {Cyclical} from './../services'
+
 
 @NgModule({
-    imports: [BrowserModule, CommonModule, FormsModule, HttpModule],
-    declarations: [AppComponent, MovieComponent],
+    imports: [BrowserModule, CommonModule, FormsModule, HttpModule, RouterModule.forRoot(Routes)],
+    declarations: [AppComponent, MovieComponent, SignageComponent],
+    providers: [Cyclical],
     entryComponents: [AppComponent],
     bootstrap: [AppComponent]
 })
